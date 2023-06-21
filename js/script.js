@@ -15,7 +15,7 @@ function login(salida) {
         }
         if (i == intentos) {
             alert("Ha alcanzado el limite de intentos");
-            window.close(); //Para que se cierre la pagina ya que intentó demasiado (solo para simular)
+            window.close(); 
             return salida;
         }
     }
@@ -76,7 +76,10 @@ function comprarPerfume(perfumes) {
             contadoPerfumes++;
             texto += contadoPerfumes + "-" + perfume.nombre + " " + perfume.marca + " " + perfume.tamanio + " ml" + "\n"
         });
-        const numeroPerfumeSeleccionado = prompt(texto)
+        const numeroPerfumeSeleccionado = parseInt(prompt(texto));
+        if (!(numeroPerfumeSeleccionado>=1 && numeroPerfumeSeleccionado<=perfumes.length)){
+            return alert ("Ingrese una opcion valida")
+        }
         let perfumeSeleccionado = perfumes.find((perfume) => perfume.id == numeroPerfumeSeleccionado);
         perfumeSeleccionadosuma = perfumeSeleccionadosuma + parseInt(perfumeSeleccionado.precio);
         contadorSeleccionadosSuma++
@@ -95,6 +98,8 @@ function comprarPerfume(perfumes) {
                     alert("Ha realizado la compra de " + contadorSeleccionadosSuma + " producto/s\nnumero total de " + cantcuotas + " cuotas\nCon un precio por cuota de $" + precioCuota)
                     condicionalCompra = false
                     break
+                    default:
+                        alert ("Ingrese una opcion valida")
             }
         } else if (continuarCompra == "2") {
             condicionalCompra = true
@@ -105,19 +110,24 @@ function comprarPerfume(perfumes) {
 }
 
 let salida = false;
-if (login(salida) == true) {
-    let texto = prompt("1- Ver productos\n0- SALIR");
-    while (texto != 0) {
-        switch (texto) {
-            case "1":
-                comprarPerfume(perfumes);
-                break;
-            case "2":
-
-            case "0": break;
-            default:
-                alert("Ingrese una opción válida.");
+function menuProgramaPrincipal(){
+    if (login(salida) == true) {
+        let texto = prompt("1- Ver productos\n0- SALIR");
+        while (texto != 0) {
+            switch (texto) {
+                case "1":
+                    comprarPerfume(perfumes);
+                    break;
+                case "2":
+    
+                case "0": break;
+                default:
+                    alert("Ingrese una opción válida.");
+            }
+            texto = prompt("1 - Listado de perfumes\n0 - para salir ");
         }
-        texto = prompt("1 - Listado de perfumes\n0 - para salir ");
     }
-}
+    
+};
+
+menuProgramaPrincipal();
