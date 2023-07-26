@@ -1,0 +1,124 @@
+[
+    {
+      "nombre": "Boss Bottled",
+      "marca": "HUGO BOSS",
+      "tamanio": "50",
+      "genero": "masculino",
+      "tipo": "Parfum",
+      "precio": "43300",
+      "id": "1",
+      "stock": "18",
+      "rutaImagen": "bossbottled.jpg"
+    },
+    {
+      "nombre": "Boss Alive",
+      "marca": "HUGO BOSS",
+      "tamanio": "50",
+      "genero": "femenino",
+      "tipo": "Parfum",
+      "precio": "44000",
+      "id": "2",
+      "stock": "25",
+      "rutaImagen": "bossalive1.jpg"
+    },
+    {
+      "nombre": "Boss Alive",
+      "marca": "HUGO BOSS",
+      "tamanio": "80",
+      "genero": "femenino",
+      "tipo": "Parfum",
+      "precio": "57000",
+      "id": "3",
+      "stock": "11",
+      "rutaImagen": "bossalive2.jpg"
+    },
+    {
+      "nombre": "ACQUA DI GIO HOMME",
+      "marca": "ARMANI",
+      "tamanio": "100",
+      "genero": "masculino",
+      "tipo": "Parfum",
+      "precio": "48900",
+      "id": "4",
+      "stock": "21",
+      "rutaImagen": "acqua1.jpeg"
+    },
+    {
+      "nombre": "ACQUA DI GIO HOMME ABSOLU",
+      "marca": "ARMANI",
+      "tamanio": "200",
+      "genero": "masculino",
+      "tipo": "Parfum",
+      "precio": "64000",
+      "id": "5",
+      "stock": "13",
+      "rutaImagen": "acquaabsolu.jpg"
+    },
+    {
+      "nombre": "One Million",
+      "marca": "Paco Rabanne",
+      "tamanio": "100",
+      "genero": "masculino",
+      "tipo": "Toilette",
+      "precio": "47700",
+      "id": "6",
+      "stock": "11",
+      "rutaImagen": "onemillion1.jpg"
+    },
+    {
+      "nombre": "One Million",
+      "marca": "Paco Rabanne",
+      "tamanio": "200",
+      "genero": "masculino",
+      "tipo": "Toilette",
+      "precio": "69200",
+      "id": "7",
+      "stock": "8",
+      "rutaImagen": "onemillion2.jpg"
+    },
+    {
+      "nombre": "Invictus",
+      "marca": "Paco Rabanne",
+      "tamanio": "50",
+      "genero": "masculino",
+      "tipo": "Toilette",
+      "precio": "40500",
+      "id": "8",
+      "stock": "16",
+      "rutaImagen": "invictus.jpg"
+    },
+    {
+      "nombre": "Invictus",
+      "marca": "Paco Rabanne",
+      "tamanio": "100",
+      "genero": "masculino",
+      "tipo": "Toilette",
+      "precio": "47500",
+      "id": "9",
+      "stock": "10",
+      "rutaImagen": "invictus1.jpg"
+    },
+    {
+      "nombre": "Bad Boy",
+      "marca": "Carolina Herrera",
+      "tamanio": "50",
+      "genero": "masculino",
+      "tipo": "Parfum",
+      "precio": "44900",
+      "id": "10",
+      "stock": "18",
+      "rutaImagen": "badboy.jpg"
+    },
+    {
+      "nombre": "Eros",
+      "marca": "Versace",
+      "tamanio": "200",
+      "genero": "masculino",
+      "tipo": "Toilette",
+      "precio": "68400",
+      "id": "11",
+      "stock": "12",
+      "rutaImagen": "eros.jpg"
+    }
+  ]
+  
